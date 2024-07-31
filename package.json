@@ -1,0 +1,35 @@
+{
+  "name": "TMA-nextjs-template",
+  "version": "1.0.1",
+  "private": true,
+  "author": {
+    "name": "blocksdevpro",
+    "url": "https://telegram.me/blocksdev",
+    "email": "blocksdev.pro@gmail.com"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/bundle-analyzer": "^14.2.3",
+    "@tanstack/react-query": "^5.40.0",
+    "next": "14.2.1",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@tanstack/eslint-plugin-query": "^5.35.6",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "telegram-webapps-types-new": "^1.2.0",
+    "typescript": "^5"
+  }
+}
